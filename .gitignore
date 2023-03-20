@@ -1,4 +1,6 @@
 # Project exclude paths
+
 .idea
 out
-/exercises.iml
+
+exercises.iml
