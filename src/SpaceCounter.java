@@ -5,7 +5,7 @@ public class SpaceCounter {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Input the text: ");
+        System.out.print("Insert the text: ");
         String text = sc.nextLine();
 
         int textLength = text.length();
@@ -17,11 +17,10 @@ public class SpaceCounter {
                 spaceCounter++;
             }
         }
-        System.out.println("Text length is: " + textLength);
-        System.out.println("Number of spaces is: " + spaceCounter);
+        System.out.println("The length of the text is: " + textLength);
+        System.out.println("The number of spaces is: " + spaceCounter);
 
         percent = ((float) spaceCounter * 100 / textLength);
-        System.out.println("Percentage of space is: " + percent);
-
+        System.out.println("The percentage of space is: " + percent);
     }
 }
